@@ -20,7 +20,6 @@ def stega_encrypt():
         frames.append(frame)
 
     for elem in ([ord(elem) for elem in input("text here: ")]):
-        print(elem)
         coords = (randint(1, width-10), randint(1, height-10))
         frame_id = randint(1, img.n_frames-1)
 

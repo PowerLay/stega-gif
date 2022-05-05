@@ -21,8 +21,6 @@ def stega_decrypt():
         keys.append((frame, coords))
 
     for key in keys:
-        print(key)
-
         frame, coords = key
         img.seek(frame)
         pix = img.load()
